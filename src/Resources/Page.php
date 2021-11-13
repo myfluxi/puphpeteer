@@ -12,6 +12,7 @@ use Nesk\Puphpeteer\Traits\AliasesEvaluationMethods;
  * @property-read \Nesk\Puphpeteer\Resources\Tracing tracing
  * @property-read \Nesk\Puphpeteer\Resources\Accessibility accessibility
  * @property-read \Nesk\Puphpeteer\Resources\Mouse mouse
+ * @property-read \Nesk\Puphpeteer\Resources\Page tryCatch
  * @method bool isJavaScriptEnabled()
  * @method-extended bool isJavaScriptEnabled()
  * @method \Nesk\Puphpeteer\Resources\FileChooser waitForFileChooser(array $options = [])

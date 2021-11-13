@@ -3,6 +3,7 @@
 namespace Nesk\Puphpeteer\Resources;
 
 /**
+ * @property-read \Nesk\Puphpeteer\Resources\Page tryCatch
  * @method mixed|null process()
  * @method-extended mixed|null process()
  * @method \Nesk\Puphpeteer\Resources\BrowserContext createIncognitoBrowserContext()

@@ -5,6 +5,7 @@ namespace Nesk\Puphpeteer\Resources;
 use Nesk\Rialto\Data\BasicResource;
 
 /**
+ * @property-read \Nesk\Puphpeteer\Resources\Page tryCatch
  * @method void move(float $x, float $y, array $options = [])
  * @method-extended void move(float $x, float $y, array{ steps: float } $options = null)
  * @method void click(float $x, float $y, array $options = [])

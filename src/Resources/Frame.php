@@ -7,6 +7,7 @@ use Nesk\Puphpeteer\Traits\AliasesSelectionMethods;
 use Nesk\Puphpeteer\Traits\AliasesEvaluationMethods;
 
 /**
+ * @property-read \Nesk\Puphpeteer\Resources\Page tryCatch
  * @method \Nesk\Puphpeteer\Resources\HTTPResponse|null goto(string $url, array $options = [])
  * @method-extended \Nesk\Puphpeteer\Resources\HTTPResponse|null goto(string $url, array{ referer: string, timeout: float, waitUntil: string|string[] } $options = null)
  * @method \Nesk\Puphpeteer\Resources\HTTPResponse|null waitForNavigation(array $options = [])
