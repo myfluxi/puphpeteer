@@ -21,7 +21,7 @@
     "require": {
         "php": ">=7.3",
         "ext-json": "*",
-        "nesk/rialto": "^1.2.0",
+        "nesk/rialto": "dev-track-upstream",
         "psr/log": "^1.0",
         "vierbergenlars/php-semver": "^3.0.2"
     },
@@ -48,5 +48,11 @@
     },
     "config": {
         "sort-packages": true
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:myfluxi/rialto.git"
+        }
+    ]
 }
